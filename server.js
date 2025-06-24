@@ -32,5 +32,5 @@ app.get('/books', async (req, res) => {
 });
 
 app.listen(port, () => {
-    console.log(`Server running at http://localhost:${port}`);
+    console.log(`Server running at  http://0.0.0.0:3000`);
 });
